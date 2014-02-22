@@ -6,7 +6,7 @@ Just a function to grab a single vector tile. You provide:
 
 ## Example usage
 
-```json
+```javascript
 var pbfDump = require('pbf-dumper');
 var fs = require('fs');
 var tilejson = JSON.parse(fs.readFileSync('/path/to/tilejson.json'));
