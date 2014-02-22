@@ -1,6 +1,6 @@
 {
   "name": "vt-dumper",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Pull down some pbfs",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/rclark/vt-dumper/issues"
   },
   "bin": {
-    "vt-dump": "bin/vt-dumper.js"
+    "vt-dump": "bin/vt-dump.js"
   },
   "homepage": "https://github.com/rclark/vt-dumper",
   "dependencies": {
