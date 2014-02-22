@@ -1,0 +1,28 @@
+{
+  "name": "pbf-dumper",
+  "version": "0.0.0",
+  "description": "Pull down some pbfs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rclark/pbf-dumper.git"
+  },
+  "author": "Ryan Clark",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/rclark/pbf-dumper/issues"
+  },
+  "bin": {
+    "pbf-dump": "bin/pbf-dumper.js"
+  },
+  "homepage": "https://github.com/rclark/pbf-dumper",
+  "dependencies": {
+    "tilejson": "~0.6.3",
+    "tilelive": "~4.5.3",
+    "mapnik": "~1.3.1",
+    "temp": "~0.6.0"
+  }
+}
