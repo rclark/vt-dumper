@@ -9,7 +9,7 @@ var fs = require('fs');
 temp.track();
 tilejson.registerProtocols(tilelive);
 
-var PbfDumper = function(tileJson, callback) {
+var VtDumper = function(tileJson, callback) {
     if (!tileJson.format && !tileJson.format === 'pbf') 
         return callback(new Error('Must provide valid TileJSON for a pbf source'));
 
@@ -51,4 +51,4 @@ var PbfDumper = function(tileJson, callback) {
     }
 }
 
-module.exports = PbfDumper;
+module.exports = VtDumper;

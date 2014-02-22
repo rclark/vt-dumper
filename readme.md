@@ -1,4 +1,4 @@
-# pbf-dumper
+# vt-dumper
 
 Just a function to grab a single vector tile. You provide:
 - [TileJSON](https://github.com/mapbox/tilejson-spec) that indicates where to get the tile from
@@ -7,13 +7,13 @@ Just a function to grab a single vector tile. You provide:
 ## Example usage
 
 ```javascript
-var pbfDump = require('pbf-dumper');
+var vtDump = require('vt-dumper');
 var fs = require('fs');
 var tilejson = JSON.parse(fs.readFileSync('/path/to/tilejson.json'));
 var coords = [ 1, 0, 1 ];
 
-// Calling the `pbfDump` function loads your data source
-pbfDump(tilejson, function(err, getTile) {
+// Calling the `vtDump` function loads your data source
+vtDump(tilejson, function(err, getTile) {
     // Any errors would be related to loading your TileJSON
     if (err) throw err;
 

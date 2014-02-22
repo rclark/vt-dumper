@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var pbfDumper = require('../');
+var vtDumper = require('../');
 var path = require('path');
 var fs = require('fs');
 
@@ -12,7 +12,7 @@ if (process.argv.length < 2) return console.log('You must specify a tile coordin
 var tilejson = fs.readFileSync(path.resolve(process.argv[0]));
 var tilecoord = JSON.parse(process.argv[1]);
 
-pbfDumper(JSON.parse(tilejson), function (err, getTile) {
+vtDumper(JSON.parse(tilejson), function (err, getTile) {
     if (err) return console.log(err);
     getTile(tilecoord, function (err, geojson, vtile, size) {
         if (err) return console.log(err);

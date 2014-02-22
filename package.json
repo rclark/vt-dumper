@@ -1,5 +1,5 @@
 {
-  "name": "pbf-dumper",
+  "name": "vt-dumper",
   "version": "0.0.0",
   "description": "Pull down some pbfs",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rclark/pbf-dumper.git"
+    "url": "git://github.com/rclark/vt-dumper.git"
   },
   "author": "Ryan Clark",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/rclark/pbf-dumper/issues"
+    "url": "https://github.com/rclark/vt-dumper/issues"
   },
   "bin": {
-    "pbf-dump": "bin/pbf-dumper.js"
+    "vt-dump": "bin/vt-dumper.js"
   },
-  "homepage": "https://github.com/rclark/pbf-dumper",
+  "homepage": "https://github.com/rclark/vt-dumper",
   "dependencies": {
     "tilejson": "~0.6.3",
     "tilelive": "~4.5.3",
